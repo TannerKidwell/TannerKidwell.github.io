@@ -1,0 +1,40 @@
+<!-- Tanner Kidwell
+Final Project
+12/7/21
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>The Great Race</title>
+    </head>
+
+    <body {background: url(road.jpg);}>
+        <header>
+            <h2> The Great Race</h2>
+            <p>Who will be the winner?</p>
+        </header>
+
+        <div>
+            <img src="stoplightred.jpg" alt="" id="light" width="100" onclick="changeLight(); myMove();"/>
+        </div>
+
+        <div id="container">
+            <img src="hare.jpg" alt="rabbit" id="racer1"/>
+            <img src="tortoise.jpg" alt="turtle" id="racer2"/>
+        </div>
+
+        <div>
+            <img src="" alt="" id="winner" onClick="window.location.reload();"/>
+            <img src="" alt="" id="winner2" onClick="window.location.reload();"/>
+        </div>
+
+        <img src="finishline.jpg" alt="Finish Line" id="finishline"/>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

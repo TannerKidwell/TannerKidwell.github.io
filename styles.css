@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    background-image: url(road.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#light { 
+    position: center;
+    top: 5%; 
+    width: 10%;
+    height: 10%;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#winner { 
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    position: center;
+    left: 300px;
+    z-index: 100; 
+}
+
+#winner2 { 
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    position: center;
+    left: 300px;
+    z-index: 100; 
+}
+
+#racer1 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 900px;
+}
+
+#racer2 {
+    width: 200px;
+    height: 100px;
+    top: 1100px;
+    left: 100px;
+    position: absolute;
+}
+
+#finishline {
+    float: right;
+    height: 400px;
+    width: 98px;
+    top: 890px;
+    right: 0px;
+    position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+    #imgThumbs img {
+        width: 50%;
+        margin: 0 auto 5px;
+    }
+    
+}
